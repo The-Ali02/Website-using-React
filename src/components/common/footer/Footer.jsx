@@ -38,16 +38,6 @@ const Footer = () => {
               <li>Contact us</li>
             </ul>
           </div>
-          {/*           <div className="box link">
-            <h3>Quick Links</h3>
-            <ul>
-              <li>Contact Us</li>
-              <li>Pricing</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy</li>
-              <li>Feedbacks</li>
-            </ul>
-          </div> */}
           <div className="box">
             <h3>Recent Post</h3>
             {blog.slice(0, 3).map((val) => (
